@@ -1,0 +1,1741 @@
+{
+  "hash": "126acf1c586bd23a5e68",
+  "version": "5.10.1",
+  "time": 1157,
+  "builtAt": 1608120865330,
+  "publicPath": "/",
+  "outputPath": "/home/jefferson/Documentos/Programação/webpack/outputManage/dist",
+  "assetsByChunkName": {
+    "index": [
+      "index.c89811a167dacfbee07c.bundle.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "vendors-node_modules_lodash_lodash_js.f84b2a0440ed1cd3cb9e.bundle.js",
+      "size": 1434692,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "f84b2a0440ed1cd3cb9e",
+        "javascriptModule": false,
+        "size": 1434692
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "vendors-node_modules_lodash_lodash_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.c89811a167dacfbee07c.bundle.js",
+      "size": 28463,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "c89811a167dacfbee07c",
+        "javascriptModule": false,
+        "size": 28463
+      },
+      "chunkNames": [
+        "index"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "index"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 290,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 290
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 7881,
+      "sizes": {
+        "javascript": 572,
+        "runtime": 7309
+      },
+      "names": [
+        "index"
+      ],
+      "idHints": [],
+      "runtime": [
+        "index"
+      ],
+      "files": [
+        "index.c89811a167dacfbee07c.bundle.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "febe43fab4e28af7e0ac",
+      "childrenByOrder": {},
+      "id": "index",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "vendors-node_modules_lodash_lodash_js"
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 572,
+          "sizes": {
+            "javascript": 572
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 50,
+            "resolving": 30,
+            "restoring": 0,
+            "building": 20,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 30,
+            "dependencies": 0
+          },
+          "id": "./src/index.js",
+          "issuerId": null,
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "index",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 1129,
+          "sizes": {
+            "runtime": 1129
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/create fake namespace object",
+          "name": "webpack/runtime/create fake namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 326,
+          "sizes": {
+            "runtime": 326
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/ensure chunk",
+          "name": "webpack/runtime/ensure chunk",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 205,
+          "sizes": {
+            "runtime": 205
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/get javascript chunk filename",
+          "name": "webpack/runtime/get javascript chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 86,
+          "sizes": {
+            "runtime": 86
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 3111,
+          "sizes": {
+            "runtime": 3111
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 1498,
+          "sizes": {
+            "runtime": 1498
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/load script",
+          "name": "webpack/runtime/load script",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 123,
+          "sizes": {
+            "runtime": 123
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 28,
+          "sizes": {
+            "runtime": 28
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/index.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 542563,
+      "sizes": {
+        "javascript": 542563
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "index"
+      ],
+      "files": [
+        "vendors-node_modules_lodash_lodash_js.f84b2a0440ed1cd3cb9e.bundle.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "b1e102bb9c92621cc586",
+      "childrenByOrder": {},
+      "id": "vendors-node_modules_lodash_lodash_js",
+      "siblings": [],
+      "parents": [
+        "index"
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 542563,
+          "sizes": {
+            "javascript": 542563
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "name": "./node_modules/lodash/lodash.js",
+          "nameForCondition": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 50,
+                "resolving": 30,
+                "restoring": 0,
+                "building": 20,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 30,
+                "dependencies": 0
+              },
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/lodash/lodash.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "vendors-node_modules_lodash_lodash_js"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "425:50-57",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "425:62-78",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "425:82-89",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "428:63-69",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "428:74-80",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "428:93-99",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "17161:7-11",
+              "moduleId": "./node_modules/lodash/lodash.js",
+              "resolvedModuleId": "./node_modules/lodash/lodash.js"
+            },
+            {
+              "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "13:31-47",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 17161:7-11",
+            "CommonJS bailout: exports is used directly at 425:50-57",
+            "CommonJS bailout: exports is used directly at 425:82-89"
+          ],
+          "depth": 1
+        }
+      ],
+      "origins": [
+        {
+          "module": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+          "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+          "moduleName": "./src/index.js",
+          "loc": "13:31-47",
+          "request": "lodash",
+          "moduleId": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 572,
+      "sizes": {
+        "javascript": 572
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+      "name": "./src/index.js",
+      "nameForCondition": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 50,
+        "resolving": 30,
+        "restoring": 0,
+        "building": 20,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 30,
+        "dependencies": 0
+      },
+      "id": "./src/index.js",
+      "issuerId": null,
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "index",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 542563,
+      "sizes": {
+        "javascript": 542563
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+      "name": "./node_modules/lodash/lodash.js",
+      "nameForCondition": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 50,
+            "resolving": 30,
+            "restoring": 0,
+            "building": 20,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 30,
+            "dependencies": 0
+          },
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": "./node_modules/lodash/lodash.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "vendors-node_modules_lodash_lodash_js"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "425:50-57",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "425:62-78",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "425:82-89",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "428:63-69",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "428:74-80",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "428:93-99",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "17161:7-11",
+          "moduleId": "./node_modules/lodash/lodash.js",
+          "resolvedModuleId": "./node_modules/lodash/lodash.js"
+        },
+        {
+          "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "13:31-47",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 17161:7-11",
+        "CommonJS bailout: exports is used directly at 425:50-57",
+        "CommonJS bailout: exports is used directly at 425:82-89"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 1129,
+      "sizes": {
+        "runtime": 1129
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/create fake namespace object",
+      "name": "webpack/runtime/create fake namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 326,
+      "sizes": {
+        "runtime": 326
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/ensure chunk",
+      "name": "webpack/runtime/ensure chunk",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 205,
+      "sizes": {
+        "runtime": 205
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/get javascript chunk filename",
+      "name": "webpack/runtime/get javascript chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 86,
+      "sizes": {
+        "runtime": 86
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 3111,
+      "sizes": {
+        "runtime": 3111
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 1498,
+      "sizes": {
+        "runtime": 1498
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/load script",
+      "name": "webpack/runtime/load script",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 123,
+      "sizes": {
+        "runtime": 123
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 28,
+      "sizes": {
+        "runtime": 28
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        "index"
+      ],
+      "assets": [
+        {
+          "name": "index.c89811a167dacfbee07c.bundle.js",
+          "size": 28463
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 28463,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        "index"
+      ],
+      "assets": [
+        {
+          "name": "index.c89811a167dacfbee07c.bundle.js",
+          "size": 28463
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 28463,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "3db99ff927a1093820c7",
+      "version": "5.10.1",
+      "time": 91,
+      "builtAt": 1608120864286,
+      "publicPath": "/",
+      "outputPath": "/home/jefferson/Documentos/Programação/webpack/outputManage/dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 499,
+          "sizes": {
+            "javascript": 499
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "8b76c3b1ea227e0e150a",
+          "childrenByOrder": {},
+          "id": "HtmlWebpackPlugin_0-0",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "size": 499,
+              "sizes": {
+                "javascript": 499
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/html-webpack-plugin/lib/loader.js!/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+              "nameForCondition": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 0,
+                "resolving": 0,
+                "restoring": 0,
+                "building": 0,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 0,
+                "dependencies": 0
+              },
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+              "issuerId": null,
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/html-webpack-plugin/lib/loader.js!/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+                  "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/html-webpack-plugin/lib/loader.js!/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:125-139",
+                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+                  "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html"
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/html-webpack-plugin/lib/loader.js!/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:125-139"
+              ],
+              "depth": 0
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/html-webpack-plugin/lib/loader.js!/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 499,
+          "sizes": {
+            "javascript": 499
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/html-webpack-plugin/lib/loader.js!/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+          "nameForCondition": "/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/html-webpack-plugin/lib/loader.js!/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+              "resolvedModuleIdentifier": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/html-webpack-plugin/lib/loader.js!/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:125-139",
+              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
+              "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html"
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/home/jefferson/Documentos/Programação/webpack/outputManage/node_modules/html-webpack-plugin/lib/loader.js!/home/jefferson/Documentos/Programação/webpack/outputManage/src/template.html",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:125-139"
+          ],
+          "depth": 0
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
