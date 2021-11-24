@@ -9,7 +9,7 @@ module.exports = {
   entry: {
     index: "./src/index.js",
   },
-  devtool: "inline-source-map",
+  devtool: "eval-cheap-module-source-map",
   devServer: {
     contentBase: "./dist",
   },
@@ -26,5 +26,17 @@ module.exports = {
     filename: "[name].[contenthash].bundle.js",
     path: path.resolve(__dirname, "dist"),
     publicPath: "/",
+  },
+  optimization: {
+    runtimeChunk: "single",
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: "vendors",
+          chunks: "all",
+        },
+      },
+    },
   },
 };
